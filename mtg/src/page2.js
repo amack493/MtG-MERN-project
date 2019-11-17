@@ -1,11 +1,11 @@
 import React from "react";
 
-function SpinningCard() {
+function Page2() {
   return (
-    <div className="spinningCard">
-    
+    <div>
+    <h1>Hello</h1>
     </div>
   );
 }
 
-export default SpinningCard;
+export default Page2;
