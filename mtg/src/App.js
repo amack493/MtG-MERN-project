@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
-import CardBack from "./imgs/51yRqvJKSdL.svg"
-
+import Card from "./imgs/cardback.jpg"
 function App() {
   return (
     <div className="App">
       <h1>Magic: The Gathering Card Finder</h1>
-  <img src={CardBack} className="cardBack" alt="card back" />        
+    <a href="#"><img src={Card} alt="Card" className="card"/></a>
     </div>
   );
 }
