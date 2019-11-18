@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Card from "./imgs/cardback.jpg";
 
 class Home extends Component {
   render() {
