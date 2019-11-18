@@ -1,7 +1,13 @@
 body{
   background: darkgray;
 }
+
+h1{
+  text-align: center;
+}
 .card{
+  height: 10em;
+  width: 8em;
 position: absolute;
 left: 25em;
   animation: spin 3.5s linear infinite;

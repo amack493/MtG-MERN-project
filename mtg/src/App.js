@@ -1,15 +1,13 @@
 import React, { Component } from "react";
 import "./App.css";
-import { Link, Route } from "react-router-dom";
 import Home from "./Home";
+import Form from "./forms";
 function App() {
   return (
     <div className="App">
-      <Link to="/">
       <h1>Magic: The Gathering Card Finder</h1>
-      </Link>
-      <Route path="/" component={Home}
-      />
+      <Home></Home>
+      <Form></Form>
     </div>
   );
 }
